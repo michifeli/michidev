@@ -11,11 +11,11 @@ Este repositorio contiene el sitio personal/portfolio minimalista hecho con Astr
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/Linux-and-Open-Source-USM/website.git
+   git clone [https://github.com/michifeli/michidot.dev.git](https://github.com/michifeli/michidot.dev.git)
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd website
+   cd michidev
    ```
 3. Instala las dependencias:
    ```bash
