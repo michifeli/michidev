@@ -1,46 +1,40 @@
-# Astro Starter Kit: Basics
+# Portfolio (Mitchel “michi” Rojas)
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+Este repositorio contiene el sitio personal/portfolio minimalista hecho con Astro.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Requisitos
 
-## 🚀 Project Structure
+- [Node.js](https://nodejs.org/en) (>= 22.x)
+- [pnpm](https://pnpm.io/es/) (>= 10.x)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Ejecución local
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Linux-and-Open-Source-USM/website.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd website
+   ```
+3. Instala las dependencias:
+   ```bash
+   pnpm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   pnpm dev
+   ```
+5. Abre tu navegador y visita [http://localhost:4321](http://localhost:4321) para ver el sitio web en acción.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Aprender más
 
-## 🧞 Commands
+Recursos para aprender / profundizar en las tecnologías usadas:
 
-All commands are run from the root of the project, from a terminal:
+- Astro (framework): https://docs.astro.build
+- Documentación de CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+- JavaScript (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+Si quieres aprender sobre cómo crear tu propio portfolio con Astro, empieza por la guía oficial y luego puedes revisar los archivos `src/components` y `src/layouts` de este repo como ejemplo práctico.
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
