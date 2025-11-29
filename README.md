@@ -23,7 +23,7 @@ Este repositorio contiene el sitio personal/portfolio minimalista hecho con Astr
    ```
 4. Inicia el servidor de desarrollo:
    ```bash
-   pnpm dev
+   pnpm run dev
    ```
 5. Abre tu navegador y visita [http://localhost:4321](http://localhost:4321) para ver el sitio web en acción.
 
